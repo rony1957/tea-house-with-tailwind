@@ -27,13 +27,13 @@
             }
           }
         }
-      </script>
+    </script>
     <!-- Tailwind CSS link -->
 </head>
-<body class="max-w-screen-2xl mx-auto px-16 lg:px-28">
+<body>
 
     <!-- Head Sectoin -->
-     <header class="md:flex justify-between pt-10 mb-20">
+     <header class="md:flex justify-between pt-10 mb-20 max-w-screen-2xl mx-auto px-16 lg:px-28">
 
       <!-- header text -->
        <div>
@@ -70,7 +70,7 @@
 
 
     <!-- Main section -->
-     <main>
+     <main class="max-w-screen-2xl mx-auto px-16 lg:px-28">
       <!-- Featured products -->
       <section class="py-4 lg:py-16">
         <!-- Fetured Product section -->
@@ -238,7 +238,7 @@
         <section class="py-4 lg:py-16">
           <!-- event text -->
            <div class="text-center mb-8">
-            <h1 class="font-bold text-3xl lg:text-4xl">Our Featured Products</h1>
+            <h1 class="font-bold text-3xl lg:text-4xl">News & Events</h1>
             <p class="text-gray-500 w-3/4 mx-auto mt-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
           </div>
 
@@ -294,7 +294,91 @@
 
 
     <!-- Footer Section -->
-     <footer>
+     <footer class="bg-red-50 py-10 px-4 md:px-16">
+      <div class="w-9/12 mx-auto">
+        <!-- logo -->
+         <div class="mb-8 flex justify-around">
+          <img class="mb-8" src="./images/cup.png" alt="">
+          <div class="flex items-center gap-4">
+            <h4 class="text-gray-600 font-medium text-xl">Ready to get strated?</h4>
+            <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-2 rounded-lg text-white font-semibold">Get Started</button>
+
+          </div>
+
+         </div>
+
+         <!-- links -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-4/6 mx-auto ">
+            <!-- 1st coloumn -->
+             <div>
+              <h3 class="font-semibold text-lg mb-5">Quick Links</h3>
+              <ul class="space-y-2">
+                <li class="hover:text-orange-600"><a href="#">Home</a></li>
+                <li class="hover:text-orange-600"><a href="#">About Us</a></li>
+                <li class="hover:text-orange-600"><a href="#">Insurance</a></li>
+                <li class="hover:text-orange-600"><a href="#">Privacy Policy</a></li>
+
+              </ul>
+             </div>
+
+             <!-- 2nd coloumn -->
+              
+             <div>
+              <h3 class="font-semibold text-lg mb-5">Our Service</h3>
+              <ul class="space-y-2">
+                <li class="hover:text-orange-600"><a href="#">Life Insurance</a></li>
+                <li class="hover:text-orange-600"><a href="#">Car Insurance</a></li>
+                <li class="hover:text-orange-600"><a href="#">Health Insurance</a></li>
+                <li class="hover:text-orange-600"><a href="#">House Insurance</a></li>
+
+              </ul>
+             </div>
+             <!-- 2nd coloumn -->
+
+             <!-- 3rd coloumn -->
+            
+             <div>
+              <h3 class="font-semibold text-lg mb-5">Help</h3>
+              <ul class="space-y-2">
+                <li class="hover:text-orange-600"><a href="#">FAQs</a></li>
+                <li class="hover:text-orange-600"><a href="#">Contact Us</a></li>
+              
+              </ul>
+             </div>
+             <!-- 3rd coloumn -->
+
+
+              <!-- 4rth coloumn -->
+           <div class="">
+            <h3 class="font-semibold text-lg mb-3">Subscribe to our <br> newsletter</h3>
+            <div class="flex flex-col space-y-2">
+              <div>
+                <input class="bg-transparent border-b-2 border-black w-2/3 md:w-3/4" type="text" placeholder="Email address">
+                <i class="fa-solid fa-chevron-right w-7 h-7 inline-flex bg-orange-600 rounded-full text-white justify-center items-center"></i>
+                <div class="flex gap-x-5 w-2/5 mb-2 mt-8">
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-instagram"></i>
+
+
+                </div>
+              </div>
+
+            </div>
+
+           </div>
+
+          </div>
+
+           <!-- last -->
+           <div class="text-center pt-4 mt-4">
+            <p class="font-medium text-sm text-gray-600">© 2027 UIDesign.to - All rights reserved.</p>
+
+          </div>
+
+         
+
+      </div>
         
      </footer>
     <!-- Footer Section -->
