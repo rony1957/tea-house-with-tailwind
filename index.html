@@ -30,10 +30,10 @@
       </script>
     <!-- Tailwind CSS link -->
 </head>
-<body class=" px-16 lg:px-28">
+<body class="max-w-screen-2xl mx-auto px-16 lg:px-28">
 
     <!-- Head Sectoin -->
-     <header class="md:flex justify-around pt-10 mb-20">
+     <header class="md:flex justify-between pt-10 mb-20">
 
       <!-- header text -->
        <div>
@@ -50,7 +50,7 @@
           <img class="w-full" src="./images/banner.png" alt="">
          </div>
          <!-- header card -->
-          <div class="absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg gap-x-3 top-36 md:top-[380px] md:left-32 lg:left-28">
+          <div class="absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg gap-x-3 top-36 md:top-60 lg:top-[380px] md:left-32 lg:left-28">
             <!-- icon -->
              <div>
               <i class="fa-solid fa-star text-2xl text-amber-500"></i>
@@ -71,7 +71,48 @@
 
     <!-- Main section -->
      <main>
+      <section class="py-4 lg:py-16">
+        <!-- Fetured Product section -->
+         <div class="text-center mb-8">
+          <h1 class="text-3xl md:text-4xl font-extrabold mb-5">Our Featured Products</h1>
+         <p class=" text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some <br> form, by injected humour, or randomised words which don't look even slightly believable. </p>
+         </div>
 
+         <!--Grid Card section -->
+         <div class="grid md:grid-cols-2 lg:grid-cols-4 md:gap-5 gap-5 text-center">
+          <!-- card-1 -->
+           <div class="overflow-hidden rounded-lg shadow-md bg-gray-50">
+            <img class="mx-auto py-10" src="./images/tea-1.png" alt="">
+            <h3 class="text-xl font-extrabold mb-4">Milk Tea</h3>
+            <p class="text-gray-500 font-semibold mb-10">Creamer could be <br> replaced by fresh milk</p>
+
+           </div>
+           <!-- card-2 -->
+            <div class="overflow-hidden  rounded-lg shadow-md bg-gray-50">
+            <img class="mx-auto py-10" src="./images/tea-2.png" alt="">
+            <h3 class="text-xl font-extrabold mb-4">Black Tea</h3>
+            <p class="text-gray-500 font-semibold mb-10">Creamer could be <br> replaced by fresh milk</p>
+            
+           </div>
+           <!-- card-3 -->
+           <div class="overflow-hidden  rounded-lg shadow-md bg-gray-50">
+            <img class="mx-auto py-10" src="./images/tea-3.png" alt="">
+            <h3 class="text-xl font-extrabold mb-4">Lemon Tea</h3>
+            <p class="text-gray-500 font-semibold mb-10">Creamer could be <br> replaced by fresh milk</p>
+            
+           </div>
+           <!-- card-4 -->
+           <div class="overflow-hidden rounded-lg shadow-md bg-gray-50">
+            <img class="mx-auto py-10" src="./images/tea-4.png" alt="">
+            <h3 class="text-xl font-extrabold mb-4">Green Tea</h3>
+            <p class="text-gray-500 font-semibold mb-10">Creamer could be <br> replaced by fresh milk</p>
+            
+           </div>
+
+         </div>
+
+
+      </section>
      </main>
     <!-- Main section -->
 
